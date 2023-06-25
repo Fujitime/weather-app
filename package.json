@@ -1,0 +1,20 @@
+{
+  "name": "weather-app",
+  "version": "1.0.0",
+  "description": "just weather-app using node.js",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node ."
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Fujitime/weather-app.git"
+  },
+  "author": "Fujitime",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Fujitime/weather-app/issues"
+  },
+  "homepage": "https://github.com/Fujitime/weather-app#readme"
+}
