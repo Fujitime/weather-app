@@ -1,11 +1,10 @@
-# weather-app
+# Weather App
 
-#### install
+## Installation
 
-> go to https://home.openweathermap.org/api_keys and create your api
+- First, visit [https://home.openweathermap.org/api_keys](https://home.openweathermap.org/api_keys) and create your API key.
 
-#### how to use
+## How to Use
 
-```js
-weather("bandung");
-```
+- Run the command `yarn start` in the terminal.
+- Use the city name as an argument after the `yarn start` command. For example, `yarn start bandung`.
