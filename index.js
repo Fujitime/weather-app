@@ -1,4 +1,7 @@
-const apiKey = "YOUR_API_KEY";
+
+const apiKey = "YOUR_API_KEY"; // for example use 1fe5f03e8b679377cbc41601289edfdd&units
+
+
 function weather(location) {
   try {
     const url =
@@ -35,4 +38,7 @@ function weather(location) {
     console.error("Error:", error);
   }
 }
+
+const location = process.argv[2];
+weather(location)
 
